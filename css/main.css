@@ -1,0 +1,71 @@
+*{
+outline: 1px solid blue;
+}
+/*Menú*/
+.list-nav{
+	text-align: right;
+}
+
+.list-nav li{
+	display: inline-block;
+}
+.list-nav a{
+	display: block;
+	padding: 5px 20px;
+	color: #FAFAFA;
+	text-decoration: none;
+	font-family: "'Open Sans'";
+	/*text-transform: uppercase; esto es para poner en mayuscula si se escribio en minúscula*/ 
+	transition: all 0.5s;/*esto se pone en el estado original*/
+}
+h1{
+	font-family: "'Dosis'";
+	color:#FAFAFA;
+}
+}
+.list-nav a:hover{
+	text-decoration: none;
+	color:#FE2E64;
+}
+.header-content{
+	background-color: #24282E;
+}
+.main-menu{
+	padding: 10px;
+}
+/*info*/
+.foto{
+	width: 100% auto;
+}
+.info{
+	margin: 40px 10px;
+}
+.info h3, p{
+	font-family: "'Dosis'";
+}
+.caja{
+	background-color: #c9d1d6;
+}
+/*menupequeño*/
+.works li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.works a{
+	color:#888888;
+	text-decoration: none;
+}
+/* fotos*/
+.fotos ul li{
+	list-style: none;
+	text-decoration: none;
+}
+.fotos img{
+	margin: 0 20 10px 0px;
+}
+.fotos h4, p{
+	padding-right: 30px;
+}
+.fotos{
+	padding-top: 40px;
+}
